@@ -4,23 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <title>Nobre.Chó Curadoria de Moda</title>
+    <title>Nobre.Chó-Curadoria de Moda</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <header>
     <div class="container">
-        <div class="logo"><img src="img/logo-nobrecho.png" alt="logo-nobrecho"></div>
-        <nav class="menu">
+    <header>
+        <nav>
+        <div class="nav-container">
+            <a href="index.html">
+                <img id= "logo" src="img/logo-nobrecho.png" alt="logo-nobrecho">
+                </a>
+        <i class="fas fa-bars btn-menumobile"></i>
             <ul>
             <li><a href="index.html">Início</a></li>
-            <li><a href="produtos.html">Produtos</a></li>
             <li><a href="sobre.html">Sobre</a></li>
             <li><a href="contato.html">Contato</a></li>
             </ul>
-        </nav>
-    </div>
-    <div class="main-banner">
+        </div>
+    </nav>
+    <div id="main-banner">
         <div id="search-form">
             <h4>Encontre as melhores peças:</h4>
             <form>
@@ -35,10 +38,67 @@
         </div>
     </div>
     </header>
+    <main id="produtos-destaques" class="wrapper">
+        <h2>Produtos</h2>
+        <ul>
+            <li>
+                <a href="produto1.html" class="clickarea">
+                    <div class="produto-box">
+                        <img src="img/prod1/imagem1.png">
+                        <div class="produto-info">
+                            <h3>Vestido PP</h3>
+                            <p>Preto</p>
+                        </div>
+                    </div>
+                    <div class="genero">
+                        <i class="Genêro-produto"></i>
+                        <p>Feminino</p>
+                    </div>
+                    <div class="tag-produto">
+                        <span class="ver">VER</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="produto2.html" class="clickarea">
+                    <div class="produto-box">
+                        <img src="img/prod2/imagem1.png">
+                        <div class="produto-info">
+                            <h3>Calça 36</h3>
+                            <p>Bordô</p>
+                        </div>
+                    </div>
+                    <div class="genero">
+                        <i class="Genêro-produto"></i>
+                        <p>Feminino</p>
+                    </div>
+                    <div class="tag-produto">
+                        <span class="ver">VER</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="produto3.html" class="clickarea">
+                    <div class="produto-box">
+                        <img src="img/prod3/imagem1.png">
+                        <div class="produto-info">
+                            <h3>Blusa P</h3>
+                            <p>Cinza</p>
+                        </div>
+                    </div>
+                    <div class="genero">
+                        <i class="Genêro-produto"></i>
+                        <p>Feminino</p>
+                    </div>
+                    <div class="tag-produto">
+                        <span class="ver">VER</span>
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <div class="ver-mais">
+            <a href="#" class="ver-mais-produtos">Ver mais produtos</a>
+        </div>
+    </main>
  
-    <footer>
-        <a href="produto1.html">
-        <img src="img/prod1/imagem1.png"></a>
-    </footer>
-</body>
 </html>
