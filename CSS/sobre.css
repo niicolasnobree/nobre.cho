@@ -4,6 +4,7 @@ html{
     
 body{
     margin: 0;
+    background-color: #808080;
 }
 
 h1, h2, h3, h4, h5, p, span{
@@ -12,6 +13,7 @@ h1, h2, h3, h4, h5, p, span{
 }
 
 .container{
+    background-color: #808080;
     max-width: 1920px;
     width: 100%;
     position: relative;
@@ -88,12 +90,12 @@ nav:after {
 
 /* banner */
 #main-banner {
-    background: url('img/banner-central.png') no-repeat;
+    background: url('./nobre.cho/img/banner-central.png') no-repeat;
     background-size: cover;
     background-position: 0 55%;
     position: relative;
     margin-top: 100px;
-    max-height: 500px;
+    max-height: 400px;
 }
 
 #search-form {
@@ -277,3 +279,38 @@ main {
     background-color: #C0C0C0;
     color: #BC8F8F;
 }
+
+/* Página sobre.html */
+#quem-somos h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+
+#quem-somos p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Rodapé */
+footer {
+    padding: 20px;
+    background: #BC8F8F;
+    color: black;
+    margin-top: 20px;
+}
+
+footer p{
+    text-align: right;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Projeto não terminado, seguirá em alteração após o prazo*/

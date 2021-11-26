@@ -1,0 +1,296 @@
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+    
+body{
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, p, span{
+    margin: 0;
+    color: black;
+}
+
+.container{
+    background-color: #808080;
+    max-width: 1920px;
+    width: 100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* hide on desktop */
+.nav-container .btn-menumobile {
+    display: none;
+}
+
+/* header */
+header {
+    position: relative;
+    top: 0;
+    height: auto;
+    width: 100%;
+}
+
+/* navbar*/
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    z-index: 1;
+    background-color: #BC8F8F;
+    border-bottom: 1px solid #BC8F8F;
+}
+
+nav:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.nav-container {
+    max-width: 1200px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#logo {
+    width: 70px;
+    height: 70px;
+    margin-top: 25px;
+}
+
+.nav-container ul {
+    float: right;
+    height: 100px;
+    line-height: 100px;
+    margin: 0;
+}
+
+.nav-container ul li {
+    list-style: none;
+    float: left;
+    margin: 0 15px;
+}
+
+.nav-container li a {
+    text-decoration: none;
+    color: black;
+    transition: .5s;
+}
+
+.nav-container li a:hover {
+    color: #C0C0C0;
+}
+
+/* banner */
+#main-banner {
+    background-image: url('./nobre.cho/img/banner-central.png') no repeat;
+    background-size: cover;
+    background-position: 0 55%;
+    position: relative;
+    margin-top: 100px;
+    max-height: 500px;
+}
+
+#search-form {
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    text-align: center;
+}
+
+#search-form h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: black;
+    font-style: oblique;
+    margin-bottom: 30px;
+}
+
+#search-form input, #search-form select {
+    background-color: #C0C0C0;
+    border-radius: 5px;
+    border-color: #BC8F8F;
+    padding: 5px 10px;
+    font-size: 14px;
+    margin: 0 10px;
+}
+
+#search-form input[type=submit] {
+    background-color: #C0C0C0;
+    text-transform: uppercase;
+    color: black;
+    cursor: pointer;
+    transition: .5s;
+}
+
+#search-form input [type=submit]:hover {
+    background-color: #C0C0C0;
+}
+
+/* Produtos */
+main {
+    background-color: #808080;
+}
+#produtos-destaques {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.wrapper {
+    max-width: 1200px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#produtos-destaque h1 {
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+#produtos-destaques ul {
+    padding: 0;
+    border: 1px solid #C0C0C0;
+    border-radius: 10px;
+}
+
+#produtos-destaques ul li {
+    list-style: none;
+    text-align: left;
+    border-bottom: solid 1px #C0C0C0;
+    height: 100px;
+    position: relative;
+}
+
+#produtos-destaques ul li:last-child {
+    border: none;
+}
+
+.clickarea {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* produtos img */
+.produto-box {
+    display: inline-block;
+    width: 50%;
+    position: relative;
+    padding-left: 1%;
+}
+
+.produto-box img {
+    width: 100px;
+    margin-top: 2,5px;
+}
+
+.produto-info {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: left;
+    position: absolute;
+}
+
+.produto-info h3 {
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.produto-info p {
+    font-weight: bold;
+}
+
+/* Gênero do produto */
+.genero {
+    color: #C0C0C0;
+    display: inline-block;
+    width: 25%;
+    position: absolute;
+    height: 100%;
+    line-height: 80px;
+}
+
+.genero i, .genero p {
+    display: inline-block;
+}
+
+.genero i {
+    margin-right: 5px;    
+}
+
+/* Tipo de produto*/
+.tag-produto {
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    padding-top: 30px;
+    right: 1%;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.tag-produto span {
+    display: block;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 5px;
+    color: black;
+}
+
+.ver {
+    background-color: #BC8F8F;
+}
+
+.ver-mais {
+    margin-top: 20px;
+}
+
+.ver-mais-produtos {
+    text-transform: uppercase;
+    background-color: #BC8F8F;
+    color: black;
+    border: 2px solid #BC8F8F;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: 0,5s;
+}
+
+.ver-mais-produtos:hover {
+    background-color: #C0C0C0;
+    color: #BC8F8F;
+}
+
+/* Rodapé */
+footer {
+    padding: 20px;
+    background: #BC8F8F;
+    color: black;
+    margin-top: 20px;
+}
+
+footer p{
+    text-align: right;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Projeto não terminado, seguirá em alteração após o prazo*/
